@@ -1,0 +1,55 @@
+{
+  "common": {
+    "languageName": "English",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "nav": {
+    "features": "Features",
+    "caseStudies": "Case Studies",
+    "demo": "Demo",
+    "education": "Education"
+  },
+  "hero": {
+    "title": "Revolutionizing Healthcare with Advanced AI",
+    "subtitle": "Empowering healthcare professionals with cutting-edge AI solutions for faster, more accurate diagnoses and improved patient outcomes",
+    "demo": "Request Demo",
+    "learn": "Learn More",
+    "imageAlt": "Advanced medical AI technology in action",
+    "stats": {
+      "fasterDiagnosis": "Faster Diagnosis",
+      "accuracyRate": "Diagnostic Accuracy",
+      "timeSaved": "Time Saved"
+    }
+  },
+  "features": {
+    "title": "Advanced AI Features",
+    "subtitle": "Leading-edge artificial intelligence solutions designed specifically for healthcare professionals",
+    "items": {
+      "analysis": {
+        "title": "Advanced AI Analysis",
+        "description": "State-of-the-art deep learning algorithms for precise medical image analysis"
+      },
+      "pathology": {
+        "title": "Pathology Integration",
+        "description": "Seamless integration with digital pathology workflows"
+      },
+      "analytics": {
+        "title": "Real-time Analytics",
+        "description": "Advanced analytics dashboard with real-time monitoring"
+      },
+      "processing": {
+        "title": "Rapid Processing",
+        "description": "Process medical imaging studies in seconds"
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "Automated quality checks and standardization"
+      },
+      "integration": {
+        "title": "Enterprise Integration",
+        "description": "Seamless integration with existing healthcare systems"
+      }
+    }
+  }
+}

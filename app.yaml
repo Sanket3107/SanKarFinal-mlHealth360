@@ -1,0 +1,8 @@
+runtime: nodejs20
+service: mlhealth360
+env: standard
+instance_class: F1
+
+handlers:
+  - url: /.*
+    script: auto

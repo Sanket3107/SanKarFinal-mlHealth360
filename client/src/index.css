@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    
+    /* Theme colors from logo */
+    --primary: 178 45% 49%; /* Teal from ml */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 84 50% 51%; /* Green from Health */
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 200 100% 70%; /* Blue from logo flower */
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 178 45% 49%;
+    
+    --radius: 0.5rem;
+
+    /* Chart colors based on theme */
+    --chart-1: 178 45% 49%;
+    --chart-2: 84 50% 51%;
+    --chart-3: 200 100% 70%;
+    --chart-4: 178 45% 60%;
+    --chart-5: 84 50% 60%;
+
+    /* Sidebar colors */
+    --sidebar-background: 210 40% 98%;
+    --sidebar-foreground: 222.2 47.4% 11.2%;
+    --sidebar-primary: 178 45% 49%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 84 50% 51%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 178 45% 49%;
+  }
+ 
+  .dark {
+    --background: 222.2 47.4% 11.2%;
+    --foreground: 210 40% 98%;
+    
+    --primary: 178 45% 49%;
+    --primary-foreground: 210 40% 98%;
+    
+    --secondary: 84 50% 51%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --accent: 200 100% 70%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --card: 222.2 47.4% 11.2%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222.2 47.4% 11.2%;
+    --popover-foreground: 210 40% 98%;
+    
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 178 45% 49%;
+
+    /* Chart colors based on theme */
+    --chart-1: 178 45% 49%;
+    --chart-2: 84 50% 51%;
+    --chart-3: 200 100% 70%;
+    --chart-4: 178 45% 60%;
+    --chart-5: 84 50% 60%;
+
+    /* Sidebar colors */
+    --sidebar-background: 222.2 47.4% 15%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 178 45% 49%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 84 50% 51%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 178 45% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

@@ -1,0 +1,22 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+  <!-- ML part in teal -->
+  <text x="10" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#45B6B0">ml</text>
+  <!-- Health part in green -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#8DC63F">Health</text>
+  <!-- 360 part in dark gray -->
+  <text x="150" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#4D4D4D">360</text>
+  <!-- Flower-like icon -->
+  <g transform="translate(230, 30)">
+    <!-- Teal petal -->
+    <path d="M0,-15 C8,-10 8,10 0,15 C-8,10 -8,-10 0,-15" fill="#45B6B0" />
+    <!-- Light green petal -->
+    <path d="M-15,0 C-10,-8 10,-8 15,0 C10,8 -10,8 -15,0" fill="#8DC63F" />
+    <!-- Medium green petal -->
+    <path d="M-10,-10 C-5,-15 15,5 10,10 C5,15 -15,-5 -10,-10" fill="#75B634" />
+    <!-- Medium blue petal -->
+    <path d="M10,-10 C15,-5 -5,15 -10,10 C-15,5 5,-15 10,-10" fill="#66CCFF" />
+  </g>
+  <!-- Tagline -->
+  <text x="10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#4D4D4D">Innovate | Simplify | Empower</text>
+</svg>

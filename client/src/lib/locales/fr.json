@@ -1,0 +1,75 @@
+{
+  "common": {
+    "languageName": "Français",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "caseStudies": "Études de Cas",
+    "demo": "Démonstration",
+    "education": "Formation"
+  },
+  "hero": {
+    "title": "IA Avancée pour la Santé Moderne",
+    "subtitle": "Optimisation des professionnels de santé avec des diagnostics IA de pointe",
+    "demo": "Programmer une Démo",
+    "learn": "En Savoir Plus",
+    "stats": {
+      "fasterDiagnosis": "Diagnostic Plus Rapide",
+      "accuracyRate": "Taux de Précision",
+      "timeSaved": "Temps Économisé"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités IA Avancées",
+    "subtitle": "Optimisation des professionnels de santé avec la technologie IA",
+    "items": {
+      "diagnostics": {
+        "title": "Diagnostics par IA",
+        "description": "Algorithmes d'apprentissage automatique pour l'analyse médicale"
+      },
+      "workflow": {
+        "title": "Flux de Travail Optimisés",
+        "description": "Rationalisation des processus cliniques avec priorisation automatique"
+      },
+      "analytics": {
+        "title": "Tableau de Bord Analytique",
+        "description": "Outils complets d'analyse et de reporting"
+      },
+      "assistance": {
+        "title": "Assistance Intelligente",
+        "description": "Système d'aide à la décision clinique assisté par IA"
+      }
+    }
+  },
+  "caseStudies": {
+    "title": "Histoires de Réussite",
+    "subtitle": "Découvrez comment les établissements de santé transforment les soins"
+  },
+  "demoSection": {
+    "title": "Voir MLHealth360 en Action",
+    "subtitle": "Regardez comment notre plateforme transforme les flux de travail médicaux",
+    "scheduleDemo": "Programmer une Démo en Direct",
+    "readyText": "Prêt à Transformer Votre Pratique Médicale ?",
+    "description": "Planifiez une démo personnalisée avec nos experts"
+  },
+  "trust": {
+    "title": "Confiance et Conformité",
+    "subtitle": "Respect des normes les plus élevées en technologie de santé",
+    "badges": {
+      "hipaa": {
+        "title": "Conforme HIPAA",
+        "description": "Entièrement conforme aux réglementations de confidentialité"
+      },
+      "fda": {
+        "title": "Approuvé FDA",
+        "description": "Solutions logicielles approuvées comme dispositif médical"
+      },
+      "gdpr": {
+        "title": "Compatible RGPD",
+        "description": "Conformité aux normes européennes de protection des données"
+      }
+    }
+  }
+}

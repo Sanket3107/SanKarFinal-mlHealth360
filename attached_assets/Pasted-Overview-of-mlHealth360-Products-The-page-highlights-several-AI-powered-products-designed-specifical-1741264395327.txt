@@ -1,0 +1,46 @@
+Overview of mlHealth360 Products
+The page highlights several AI-powered products designed specifically for radiologists and healthcare institutions. These products aim to streamline diagnostic workflows, enhance decision support, and improve overall efficiency in medical imaging.
+1. Scaida
+Description:
+An innovative AI-powered diagnostic assistant tailored for radiologists.
+Key Features:
+Prioritization of Critical Cases: Identifies scans needing immediate attention while leaving final decisions to the radiologist.
+Automated Reporting: Uses standardized templates to auto-populate reports, reducing manual effort.
+Cloud-Based SaaS Platform: Accessible from anywhere, ideal for remote work.
+Data Migration Services: Assists hospitals and clinics in transitioning from on-site software to a cloud-based system.
+Additional Benefits:
+Self-learning capabilities that evolve with new data and radiologist feedback.
+Enhanced collaboration features that enable peer consultation and knowledge-sharing.
+Improved diagnostic accuracy through cutting-edge AI algorithms.
+2. Scaida Flow
+Description:
+A cloud-based platform aimed at radiologists who need to transition their workflow to the cloud.
+Key Features:
+Designed for streamlined case management and automatic report generation.
+Similar to Scaida but without the integrated AI module.
+Provides migration services to help preserve clinical history during transition.
+3. Scaida DetectCT
+Description:
+An AI-driven module that integrates seamlessly into existing radiology workflows.
+Key Features:
+Utilizes state-of-the-art machine learning algorithms to analyze medical scans.
+Accurately detects abnormalities across various anatomical regions such as head, neck, shoulder, chest, abdomen, lumbar spine, pelvis, and orbit.
+Offered as a cloud-based solution, ensuring scalability and flexibility.
+Suitable for hospitals, imaging centers, and other health-tech companies looking to integrate AI into their systems.
+4. Scaida BrainCT
+Description:
+A specialized AI-driven module for neuroradiologists focused on brain CT scans.
+Key Features:
+Employs advanced deep learning algorithms and neural networks for precision in detecting brain anomalies.
+Acts as a “second set of eyes” by providing detailed interpretations, thereby reducing the risk of human error.
+Integrates with existing Hospital Information Systems (HIS) and Picture Archiving and Communication Systems (PACS).
+Capable of identifying a range of conditions including traumatic injuries, hemorrhages, infections, vascular anomalies, neoplastic conditions, degenerative changes, and developmental variations.
+Understanding the Workflow & Capabilities
+The products, particularly Scaida, are integrated within a comprehensive workflow that includes:
+Patient Data Management: Handling demographics and communication channels.
+Requisition & Invoice Management: Facilitating the entry and mapping of requisition data to procedures and invoicing.
+Worklist (MWL) Management: Connecting OEM equipment via a DIMSE endpoint to manage pending procedures.
+DICOM Image Management: Storing images and associated artifacts through a DICOM Web-enabled server.
+Advanced AI Analysis: Integrating with the DICOM server to analyze studies and display the results.
+Radiologist Report Management: Utilizing pre-built templates for efficient report generation.
+Effortless Deployment: Ensuring compatibility with existing software systems to streamline operations without costly data migration.

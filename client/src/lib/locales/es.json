@@ -1,0 +1,75 @@
+{
+  "common": {
+    "languageName": "Español",
+    "loading": "Cargando...",
+    "error": "Se produjo un error"
+  },
+  "nav": {
+    "features": "Características",
+    "caseStudies": "Casos de Estudio",
+    "demo": "Demo",
+    "education": "Educación"
+  },
+  "hero": {
+    "title": "IA Avanzada para la Salud Moderna",
+    "subtitle": "Potenciando a los profesionales médicos con diagnósticos de IA de vanguardia",
+    "demo": "Programar Demo",
+    "learn": "Más Información",
+    "stats": {
+      "fasterDiagnosis": "Diagnóstico Más Rápido",
+      "accuracyRate": "Tasa de Precisión",
+      "timeSaved": "Tiempo Ahorrado"
+    }
+  },
+  "features": {
+    "title": "Características Avanzadas de IA",
+    "subtitle": "Potenciando a los profesionales de la salud con tecnología de IA",
+    "items": {
+      "diagnostics": {
+        "title": "Diagnósticos con IA",
+        "description": "Algoritmos avanzados de aprendizaje automático para análisis médico"
+      },
+      "workflow": {
+        "title": "Flujos de Trabajo Más Rápidos",
+        "description": "Optimice los flujos de trabajo clínicos con priorización automatizada"
+      },
+      "analytics": {
+        "title": "Panel de Análisis",
+        "description": "Herramientas completas de análisis e informes"
+      },
+      "assistance": {
+        "title": "Asistencia Inteligente",
+        "description": "Sistema de soporte de decisiones clínicas asistido por IA"
+      }
+    }
+  },
+  "caseStudies": {
+    "title": "Historias de Éxito",
+    "subtitle": "Vea cómo las instituciones de salud están transformando la atención"
+  },
+  "demoSection": {
+    "title": "Vea MLHealth360 en Acción",
+    "subtitle": "Observe cómo nuestra plataforma transforma los flujos de trabajo médicos",
+    "scheduleDemo": "Programar una Demo en Vivo",
+    "readyText": "¿Listo para Transformar su Práctica Médica?",
+    "description": "Programe una demo personalizada con nuestros expertos"
+  },
+  "trust": {
+    "title": "Confianza y Cumplimiento",
+    "subtitle": "Cumpliendo los más altos estándares en tecnología sanitaria",
+    "badges": {
+      "hipaa": {
+        "title": "Compatible con HIPAA",
+        "description": "Totalmente compatible con las regulaciones de privacidad"
+      },
+      "fda": {
+        "title": "Aprobado por FDA",
+        "description": "Soluciones de software aprobadas como dispositivo médico"
+      },
+      "gdpr": {
+        "title": "Preparado para GDPR",
+        "description": "Cumplimiento de estándares europeos de protección de datos"
+      }
+    }
+  }
+}

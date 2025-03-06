@@ -1,0 +1,84 @@
+Create a modern, responsive medical AI website for **mlhealth360.com** with the following features:  
+
+---
+
+### **Core Features**  
+1. **Light/Dark Mode Toggle**  
+   - Smooth CSS transitions for theme switching.  
+   - Persist user preference via `localStorage`.  
+   - Use CSS variables for themes (light: white background, dark text; dark: #1a202c background, white text).  
+
+2. **Hero Section with Auto-Play Carousel**  
+   - Use Splide.js for a carousel showing:  
+     - AI radiology demo images.  
+     - Stats like "30% faster diagnosis" with animated counters.  
+   - Add a gradient overlay on carousel images.  
+
+3. **Animated Sections**  
+   - Use AOS (Animate On Scroll) library for:  
+     - Fade-up case studies.  
+     - Zoom-in demo video section.  
+   - Add hover effects on cards (e.g., `transform: translateY(-5px)`).  
+
+4. **AI Chatbot Integration**  
+   - Add a Drift/Intercom widget in the bottom-right corner.  
+   - Proactive prompt: "Need a demo? Chat with us!" after 10 seconds.  
+
+5. **Trust & Compliance Section**  
+   - Display HIPAA/FDA/GDPR badges as clickable icons.  
+   - Add a "Trusted by" logo carousel (hospitals/partners).  
+
+6. **Interactive Demo Video**  
+   - Embed a 2-minute video explaining AI workflows.  
+   - Include a "Play Demo" thumbnail with a hover effect.  
+
+7. **Case Studies with Metrics**  
+   - Cards showing stats like "40% faster reporting at XYZ Hospital."  
+   - Use charts.js for visual graphs (time saved, accuracy rates).  
+
+8. **Educational Hub**  
+   - Accordion section for CME courses/webinars.  
+   - Gated whitepapers (email capture form).  
+
+9. **Multilingual Support**  
+   - Add a language toggle (English/Spanish) with flags.  
+
+10. **Real-Time Notifications Demo**  
+    - Simulate an AI alert: "⚠️ Critical Case Detected" in the header.  
+
+---
+
+### **Design & UX**  
+- **Color Scheme**: Primary color #4299e1 (blue), secondary #38a169 (green).  
+- **Fonts**: Use "Inter" from Google Fonts.  
+- **Micro-Interactions**:  
+  - Button hover effects (scale + shadow).  
+  - Smooth scroll to sections.  
+- **Responsive Layout**:  
+  - Mobile-friendly navbar (hamburger menu).  
+  - Grid layouts for cards/case studies.  
+
+---
+
+### **Technical Requirements**  
+- **Libraries**:  
+  - Splide.js (carousel).  
+  - AOS (scroll animations).  
+  - charts.js (graphs in case studies).  
+- **Hosting**: Deploy via Replit.  
+- **SEO**: Add meta tags, alt text for images.  
+
+---
+
+### **Content Placeholders**  
+- Replace `via.placeholder.com` images with:  
+  - Radiology workflow screenshots.  
+  - Hospital/client logos.  
+- Add real demo video URL (placeholder: `demo-placeholder.mp4`).  
+
+---
+
+### **Testing**  
+- Ensure theme persists on page reload.  
+- Test chatbot integration on mobile.  
+- Verify AOS animations trigger on scroll.  

@@ -1,0 +1,75 @@
+{
+  "common": {
+    "languageName": "Deutsch",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "caseStudies": "Fallstudien",
+    "demo": "Demo",
+    "education": "Schulung"
+  },
+  "hero": {
+    "title": "KI-Technologie für Moderne Gesundheit",
+    "subtitle": "Unterstützung medizinischer Fachkräfte durch KI-gestützte Diagnostik",
+    "demo": "Demo Planen",
+    "learn": "Mehr Erfahren",
+    "stats": {
+      "fasterDiagnosis": "Schnellere Diagnose",
+      "accuracyRate": "Genauigkeitsrate",
+      "timeSaved": "Zeitersparnis"
+    }
+  },
+  "features": {
+    "title": "Fortschrittliche KI-Funktionen",
+    "subtitle": "Unterstützung von Gesundheitsexperten durch KI-Technologie",
+    "items": {
+      "diagnostics": {
+        "title": "KI-gestützte Diagnostik",
+        "description": "Fortschrittliche Algorithmen für medizinische Analyse"
+      },
+      "workflow": {
+        "title": "Optimierte Arbeitsabläufe",
+        "description": "Rationalisierung klinischer Prozesse mit automatischer Priorisierung"
+      },
+      "analytics": {
+        "title": "Analyse-Dashboard",
+        "description": "Umfassende Analyse- und Berichtswerkzeuge"
+      },
+      "assistance": {
+        "title": "Intelligente Assistenz",
+        "description": "KI-gestütztes klinisches Entscheidungsunterstützungssystem"
+      }
+    }
+  },
+  "caseStudies": {
+    "title": "Erfolgsgeschichten",
+    "subtitle": "Sehen Sie, wie Gesundheitseinrichtungen die Patientenversorgung transformieren"
+  },
+  "demoSection": {
+    "title": "MLHealth360 in Aktion",
+    "subtitle": "Erleben Sie, wie unsere Plattform medizinische Arbeitsabläufe transformiert",
+    "scheduleDemo": "Live-Demo Vereinbaren",
+    "readyText": "Bereit Ihre medizinische Praxis zu transformieren?",
+    "description": "Planen Sie eine persönliche Demo mit unseren Experten"
+  },
+  "trust": {
+    "title": "Vertrauen und Compliance",
+    "subtitle": "Erfüllung höchster Standards in der Gesundheitstechnologie",
+    "badges": {
+      "hipaa": {
+        "title": "HIPAA-konform",
+        "description": "Vollständig konform mit Datenschutzbestimmungen"
+      },
+      "fda": {
+        "title": "FDA-zugelassen",
+        "description": "Zugelassene Medizinprodukte-Software"
+      },
+      "gdpr": {
+        "title": "DSGVO-konform",
+        "description": "Einhaltung europäischer Datenschutzstandards"
+      }
+    }
+  }
+}
