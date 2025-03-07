@@ -4,7 +4,7 @@ import { Brain, CloudCog, FileText, Zap, Server, CloudCheck, ChevronRight } from
 
 export default function Products() {
   return (
-    <div className="min-h-screen">
+    <div id = "prod" className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/5 py-20">
         <div className="container mx-auto px-4">

@@ -15,7 +15,8 @@ const translations = {
       features: 'Features',
       caseStudies: 'Case Studies',
       demo: 'Demo',
-      education: 'Education'
+      education: 'Education',
+      getInTouch: 'GetInTouch'
     }
   },
   es: {

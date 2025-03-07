@@ -16,9 +16,9 @@ export default function TrustBadges() {
             <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
               <Shield className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">HIPAA Compliant</h3>
+            <h3 className="text-xl font-semibold mb-2">CDSCO Certified</h3>
             <p className="text-muted-foreground">
-              Our platform is fully HIPAA compliant with enterprise-grade security measures to protect patient information.
+              Our platform is fully CDSCO Certified with enterprise-grade security measures to protect patient information.
             </p>
           </div>
 

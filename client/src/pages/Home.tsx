@@ -17,12 +17,12 @@ export default function Home() {
       <main>
         <Hero id="hero" />
         <Features id="features" />
-        <ProductShowcase id="product-showcase" />
-        <CaseStudies id="case-studies" />
+        <ProductShowcase id="prod-shhowcase" />
+        <CaseStudies id="testimonials" />
         <DemoVideo id="demo-video" />
         <TrustBadges id="trust-badges" />
-        <Education id="education" />
-        <GetInTouch id="get-in-touch" />
+        <Education id="resources" />
+        <GetInTouch id="GetInTouch" />
       </main>
       <ChatWidget />
       <Footer />

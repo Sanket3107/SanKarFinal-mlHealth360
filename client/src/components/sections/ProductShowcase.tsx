@@ -37,7 +37,7 @@ export default function ProductShowcase() {
 
   const ProductCard = ({ title, description, image }) => {
     return (
-      <div className="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-lg shadow-md border border-white/20">
+      <div id = "prod-showcase" className="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-lg shadow-md border border-white/20">
         <img src={image} alt={title} className="w-full h-40 object-cover rounded-md mb-4" />
         <h3 className="text-xl font-semibold text-white">{title}</h3>
         <p className="text-sm text-gray-300 mt-2">{description}</p>

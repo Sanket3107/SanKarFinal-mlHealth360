@@ -75,7 +75,7 @@ export default function DemoVideo() {
     <section id="demo" className="relative py-24 bg-gradient-to-b from-background via-primary/5 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
-          <h2 className="text-3xl font-bold mb-4">Experience MLHealth360 in Action</h2>
+          <h2 className="text-3xl font-bold mb-4">Experience Scaida in Action</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             See how our AI-powered platform streamlines medical documentation, improves patient care, and increases practice efficiency.
           </p>
@@ -86,7 +86,7 @@ export default function DemoVideo() {
           data-aos="zoom-in"
         >
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070"
+            src="\images\scaida.jpg"
             alt="Doctor using MLHealth360"
             className="w-full aspect-video object-cover"
           />
@@ -105,7 +105,7 @@ export default function DemoVideo() {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/fqOvBLzw_5U"
+                    src="https://archive.org/download/healthcare-explainer-toolkit-free/Healthcare%20Explainer%20Toolkit_free.mp4"
                     title="MLHealth360 Demo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

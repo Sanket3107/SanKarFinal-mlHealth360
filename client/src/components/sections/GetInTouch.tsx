@@ -1,16 +1,16 @@
 import React from "react";
 
-const GetInTouch = () => {
+export default function GetInTouch () {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between p-8 ">
+        <div id= "GetInTouch" className="flex flex-col md:flex-row items-center justify-between p-8 ">
             {/* Left Section */}
             <div className="md:w-1/2 space-y-4">
                 <h2 className="text-4xl font-bold text-white-800">Get in touch</h2>
-                <p className="text-gray-600">
+                <p className="text-white-800">
                     with our sales representative to discover the perfect solution for your needs.
                 </p>
-                <div className="space-y-2 text-gray-700">
-                    <p className="flex items-center gap-2">
+                <div className="space-y-2 text-white-800">
+                    <p className="flex items-center gap-2 ">
                         📍 Unit 204, 9900 King George Blvd, Surrey, BC V3T 0K7
                     </p>
                     <p className="flex items-center gap-2">📞 (604) 496-1799</p>
@@ -51,4 +51,4 @@ const GetInTouch = () => {
     );
 };
 
-export default GetInTouch;
+// export default GetInTouch;

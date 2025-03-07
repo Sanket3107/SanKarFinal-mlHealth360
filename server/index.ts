@@ -57,22 +57,33 @@ app.use((req, res, next) => {
   }
 
   // Try to serve on port 5000, fallback to other ports if unavailable
-  const startServer = (port = 5000) => {
-    server.listen({
-      port,
-      host: "0.0.0.0",
-      reusePort: true,
-    }, () => {
-      log(`serving on port ${port}`);
-    }).on('error', (err: any) => {
-      if (err.code === 'EADDRINUSE') {
-        log(`Port ${port} is already in use, trying ${port + 1}...`);
-        startServer(port + 1);
-      } else {
-        console.error('Server error:', err);
-      }
-    });
-  };
+//   const startServer = (port = 5000) => {
+//     server.listen({
+//       port,
+//       host: "0.0.0.0",
+//       reusePort: true,
+//     }, () => {
+//       log(`serving on port ${port}`);
+//     }).on('error', (err: any) => {
+//       if (err.code === 'EADDRINUSE') {
+//         log(`Port ${port} is already in use, trying ${port + 1}...`);
+//         startServer(port + 1);
+//       } else {
+//         console.error('Server error:', err);
+//       }
+//     });
+//   };
   
-  startServer();
+//   startServer();
+// })();
+const port = 3000;
+server.listen(
+  {
+    port,
+    host: "127.0.0.1"
+  },
+  () => {
+    log(`Serving on http://127.0.0.1:${port}`);
+  }
+);
 })();
