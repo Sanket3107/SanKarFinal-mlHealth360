@@ -9,6 +9,7 @@ import Education from "@/components/sections/Education";
 import ProductShowcase from "@/components/sections/ProductShowcase";
 import ChatWidget from "@/components/widgets/ChatWidget";
 import GetInTouch from "@/components/sections/GetInTouch";
+import Products from "@/components/pages/Products";
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero id="hero" />
-        <Features id="features" />
-        <ProductShowcase id="prod-shhowcase" />
+        {/* <Features id="features" /> */}
+        <Products id="prod" />
         <CaseStudies id="testimonials" />
-        <DemoVideo id="demo-video" />
+        {/* <DemoVideo id="demo-video" /> */}
         <TrustBadges id="trust-badges" />
         <Education id="resources" />
         <GetInTouch id="GetInTouch" />

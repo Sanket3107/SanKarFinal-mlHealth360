@@ -188,11 +188,6 @@ export default function Education() {
           </TabsContent>
         </Tabs>
 
-        <div className="text-center mt-16">
-          <Button variant="outline" size="lg">
-            View All Resources
-          </Button>
-        </div>
       </div>
     </section>
   );

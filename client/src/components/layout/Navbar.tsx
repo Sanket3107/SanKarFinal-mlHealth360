@@ -1,4 +1,3 @@
-
 // import { Link } from "wouter";
 // import { Input } from "@/components/ui/input";
 // import { Search } from "lucide-react";
@@ -124,11 +123,16 @@ export default function Navbar() {
 
             {/* Desktop main navigation */}
             <div className="hidden md:ml-10 md:flex md:space-x-8">
-              <Link onClick={() => scrollToSection("prod-showcase")}>
+              <Link onClick={() => scrollToSection("prod")}>
                 <span className="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 text-sm font-medium cursor-pointer">
                   PRODUCTS
                 </span>
               </Link>
+              {/* <Link href="/products">
+                <span className="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 text-sm font-medium cursor-pointer">
+                  PRODUCTS
+                </span>
+              </Link> */}
               <Link onClick={() => scrollToSection("product-showcase")}>
                 <span className="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white px-3 py-2 text-sm font-medium cursor-pointer">
                   SERVICES
@@ -183,3 +187,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

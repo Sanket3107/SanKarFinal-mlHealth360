@@ -122,7 +122,7 @@ export default function DemoVideo() {
             <p className="text-muted-foreground mb-8">
               MLHealth360 combines state-of-the-art AI with medical expertise to create tools that save time, reduce administrative burden, and improve patient care. Our platform seamlessly integrates with your existing workflows.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
               <div className="bg-card rounded-lg p-5 shadow-md">
                 <h4 className="font-semibold text-lg mb-2">Clinical Documentation</h4>
                 <p className="text-sm">Automated note generation with customizable templates for your specialty</p>
@@ -135,7 +135,7 @@ export default function DemoVideo() {
                 <h4 className="font-semibold text-lg mb-2">Patient Insights</h4>
                 <p className="text-sm">Clinical decision support with relevant medical literature</p>
               </div>
-            </div>
+            </div> */}
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 transform hover:scale-105 transition-transform duration-300 px-8"
